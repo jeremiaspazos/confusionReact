@@ -41,6 +41,7 @@ class DishDetail extends Component{
 
     renderDish(dish){
         return(
+            <div className="container">
             <div className="row">
                 <div className="col-12 col-md-5 m-1"> 
                     <Card>
@@ -54,6 +55,7 @@ class DishDetail extends Component{
                 <div className="col-12 col-md-5 m-1">        
                     {this.renderComments(dish.comments)}
                 </div>
+            </div>
             </div>
         )
     }
