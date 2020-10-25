@@ -30,4 +30,7 @@ address{
 
 .navbar-dark {
     background-color: #512DA8;
+    position:fixed;
+    width:100%;
+    
 }
